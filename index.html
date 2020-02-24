@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Grade Calculator</title>
+
+<script type="text/javascript">
+// create variables
+var exam_grade;
+var course_grade;
+
+// prompt user for final exam grade
+exam_grade = prompt("What score did you earn on the final exam? Enter 95 for 95%");
+
+// calculate course grade
+course_grade = ((85*75) + (exam_grade*25))/100;
+
+	document.write("<p>You earned " + exam_grade + "% on the final exam.</p>");
+    document.write("<p>Your final course grade will be " + course_grade + "%");
+
+</script>
+</head>
+
+<body>
+</body>
+</html>
